@@ -1,0 +1,2 @@
+correr app:
+    npm run dev
