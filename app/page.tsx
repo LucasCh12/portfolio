@@ -57,7 +57,7 @@ export default function Home() {
                     src="/code3.png" 
                     alt="Lucas Chiapella"
                     width={100}
-                    height={100}
+                    height={101}
                     className="object-cover"
                   />
                 </div>
