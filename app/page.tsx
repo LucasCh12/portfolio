@@ -29,9 +29,15 @@ export default function Home() {
               >
                 Skills
               </a>
-              <button className="px-6 p-2 rounded bg-[#0a0708] cursor-pointer hover:scale-110 active:scale-95 transition-transform duration-300 text-[#8B5CF6]">
+              <a 
+                href="#proyect"
+                className="px-6 p-6 border-none bg-transparent cursor-pointer hover:scale-110 active:scale-95 transition-transform duration-300 text-white"
+              >
+                Proyects
+              </a>
+              <a  href="#contact" className="mt-3 px-6 p-3 rounded bg-[#0a0708] cursor-pointer hover:scale-110 active:scale-10 transition-transform duration-300 text-[#8B5CF6]">
                 Contact me
-              </button>
+              </a>
             </nav>
           </header>   
           <main className="flex-1 flex items-center mb-50 ml-30">
@@ -81,7 +87,7 @@ export default function Home() {
         </div>  
         <div className="relative z-10 ml-40">
           <h2 className="text-center text-3xl font-bold text-[#8B5CF6] mb-16 mr-53">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4 ml-80">
             <div className="flex flex-col items-center">
               <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#0a0708] to-[#1c1c1c] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
                 <div className="relative w-20 h-20 mb-4">
@@ -119,6 +125,19 @@ export default function Home() {
                   />
                 </div>
                 <div className="text-xl font-bold text-[#8B5CF6] mt-2">Git</div>
+              </div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#0a0708] to-[#1c1c1c] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
+                <div className="relative w-20 h-20 mb-4">
+                  <Image 
+                    src="/html.png" 
+                    alt="Java"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="text-xl font-bold text-[#8B5CF6] mt-2">HTML & CSS</div>
               </div>
             </div>
           </div>
@@ -182,7 +201,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-            <section id="skills" className="relative overflow-hidden py-20 min-h-screen">
+            <section id="proyect" className="relative overflow-hidden py-20 min-h-screen">
   <div className="absolute inset-0 z-0">
     <div className="absolute inset-0 bg-[#0a0708]"></div>
   </div>  
@@ -265,7 +284,7 @@ export default function Home() {
           </div>
   </div>
 </section>
-      <section id="skills" className="relative overflow-hidden py-20">
+      <section id="contact" className="relative overflow-hidden py-20">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#1c1c1c]"></div>
         </div>  
