@@ -52,7 +52,7 @@ export default function Home() {
               <div className="mt-20">  
                 <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-[#8B5CF6]">
                   <Image 
-                    src="/1.jpeg" 
+                    src="/lucasfoto1.png" 
                     alt="Lucas Chiapella"
                     fill
                     className="object-cover"
