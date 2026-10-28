@@ -40,12 +40,12 @@ export default function Home() {
               </a>
             </nav>
           </header>   
-          <main className="flex-1 flex items-center mb-50 ml-30">
-            <div className="ml-20">
+          <main className="flex-1 flex items-center mb-50 ml-28">
+            <div className="ml-5">
               <div className="max-w-lg">
                 <p className="text-3xl text-gray-300">Hello i'm</p>
                 <h1 className="text-5xl font-bold text-white my-4">Lucas Chiapella</h1>
-                <p className="text-2xl text-[#8B5CF6] mb-10">Developer</p>
+                <p className="text-2xl text-[#8B5CF6] mb-10">Backend Developer</p>
                 <div className="mt-10">
                   <SocialButtons/>
                 </div>
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex items-start pl-20">
               <div className="mt-20">  
-                <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-[#8B5CF6]">
+                <div className="relative w-70 h-70 rounded-full overflow-hidden border-4 border-[#8B5CF6] mr-10">
                   <Image 
                     src="/lucasfoto1.png" 
                     alt="Lucas Chiapella"
@@ -67,7 +67,7 @@ export default function Home() {
                     className="object-cover"
                   />
                 </div>
-                <div className="justify-end mt-20 gap-10 mr-70">
+                <div className="justify-end mt-10 gap-10 mr-70">
                   <Image 
                     src="/code4.png" 
                     alt="Lucas Chiapella"
@@ -86,8 +86,8 @@ export default function Home() {
           <div className="absolute inset-0 bg-[#0a0708]"></div>
         </div>  
         <div className="relative z-10 ml-40">
-          <h2 className="text-center text-3xl font-bold text-[#8B5CF6] mb-16 mr-53">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4 ml-80">
+          <h2 className="text-center text-3xl font-bold text-[#8B5CF6] mb-16 mr-40">Skills</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4 ml-68">
             <div className="flex flex-col items-center">
               <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#0a0708] to-[#1c1c1c] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
                 <div className="relative w-20 h-20 mb-4">
@@ -105,13 +105,13 @@ export default function Home() {
               <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#0a0708] to-[#1c1c1c] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
                 <div className="relative w-20 h-20 mb-4">
                   <Image 
-                    src="/c1.png" 
-                    alt="C"
+                    src="/spring.png" 
+                    alt="Spring Boot"
                     fill
                     className="object-contain"
                   />
                 </div>
-                <div className="text-xl font-bold text-[#8B5CF6] mt-2">C</div>
+                <div className="text-xl font-bold text-[#8B5CF6] mt-2">Spring Boot</div>
               </div>
             </div>
             <div className="flex flex-col items-center col-span-2 md:col-span-1">
@@ -127,22 +127,9 @@ export default function Home() {
                 <div className="text-xl font-bold text-[#8B5CF6] mt-2">Git</div>
               </div>
             </div>
-            <div className="flex flex-col items-center">
-              <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#0a0708] to-[#1c1c1c] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
-                <div className="relative w-20 h-20 mb-4">
-                  <Image 
-                    src="/html.png" 
-                    alt="Java"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="text-xl font-bold text-[#8B5CF6] mt-2">HTML & CSS</div>
-              </div>
-            </div>
           </div>
           <div className="text-center mt-16 max-w-2xl mx-auto px-4">
-            <p className="text-gray-400 text-xl mr-60">
+            <p className="text-gray-400 text-xl mr-50">
               Core technologies I work with daily.
             </p>
           </div>
@@ -152,32 +139,32 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#1c1c1c]"></div>
         </div>  
-        <div className="relative z-10 ml-40">
+        <div className="relative z-10 ml-55">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4">
             <div className="flex flex-col items-center">
               <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#1c1c1c] to-[#0a0708] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
-                <div className="relative w-20 h-20 mb-4">
+                <div className="relative w-500 h-500 mb-4">
                   <Image 
-                    src="/javascript.png" 
-                    alt="Java"
+                    src="/cs.png" 
+                    alt="cs"
                     fill
                     className="object-contain"
                   />
                 </div>
-                <div className="text-xl font-bold text-[#8B5CF6] mt-2">JavaScript</div>
+                <div className="text-xl font-bold text-[#8B5CF6] mt-2">C#</div>
               </div>
             </div>        
             <div className="flex flex-col items-center">
               <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#1c1c1c] to-[#0a0708] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
                 <div className="relative w-20 h-20 mb-4">
                   <Image 
-                    src="/python.png" 
+                    src="/dotnet.png" 
                     alt="C"
                     fill
                     className="object-contain"
                   />
                 </div>
-                <div className="text-xl font-bold text-[#8B5CF6] mt-2">Python</div>
+                <div className="text-xl font-bold text-[#8B5CF6] mt-2">.Net</div>
               </div>
             </div>
             <div className="flex flex-col items-center col-span-2 md:col-span-1">
@@ -194,8 +181,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mt-16 max-w-2xl mx-auto px-4 ml-45 text-center ml-110">
-            <p className="text-gray-400 text-xl">
+          <div className="text-center mt-16 max-w-2xl mx-auto px-4">
+            <p className="text-gray-400 text-xl mr-60">
               Technologies i'm currently learning.
             </p>
           </div>
