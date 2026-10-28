@@ -85,11 +85,11 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0a0708]"></div>
         </div>  
-        <div className="relative z-10 ml-40">
-          <h2 className="text-center text-3xl font-bold text-[#8B5CF6] mb-16 mr-40">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4 ml-68">
+        <div className="relative z-10 ml-55">
+          <h2 className="text-center text-3xl font-bold text-[#8B5CF6] mb-16 mr-60">Skills</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto px-4">
             <div className="flex flex-col items-center">
-              <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#0a0708] to-[#1c1c1c] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
+              <div className="w-48 h-48 rounded-xl bg-gradient-to-br from-[#1c1c1c] to-[#0a0708] border-2 border-[#8B5CF6]/30 flex flex-col items-center justify-center p-6 shadow-lg">
                 <div className="relative w-20 h-20 mb-4">
                   <Image 
                     src="/java.png" 
